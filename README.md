@@ -3,9 +3,9 @@ interboxspider-web-net-core
 
 ---
 
-# **Nachricht 1: Eine neue Ära des digitalen Seins – Das @RFOF-NETWORK stellt sich vor**
+# **Info 1: Eine neue Ära des digitalen Seins – Das @RFOF-NETWORK stellt sich vor**
 
-## **README.md für das Haupt-Ökosystem (Repo: `interboxspider-web-net-core`)**
+## **README.md für das Haupt-Ökosystem (Repo: `InterBOxSpider-Web-NET-core`)**
 
 ---
 
