@@ -1,5 +1,4 @@
-# interboxspider-web-net-core
-interboxspider-web-net-core
+# Interboxspider-Web.NET.core
 
 ---
 
