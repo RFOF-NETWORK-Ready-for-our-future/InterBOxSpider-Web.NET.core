@@ -244,3 +244,154 @@ Dieses Werk, einschließlich aller Quellcodes, Artefakte, Axiomtransformationen,
 ⸻
 Lizenzversion 0.42 · Erstveröffentlichung: Ygg-Zyklus N°1
 Kontakt: [https://registry.rfof.network](https://registry.rfof.network) · Lizenzzeichen: 🜃⚡🜂
+
+
+----
+
+
+Dies ist die exakte Visualisierung unserer Repo-Strukturen, die dir als präziser Bauplan für die Codifizierung dient.
+
+## **1. Repository: `interboxspider-web-net-core` (Das Haupt-Ökosystem)**
+
+```
+interboxspider-web-net-core/
+├── docs/
+│   ├── README.md                                   (Diese allgemeine Repo-Beschreibung)
+│   └── patent_documentation/
+│       └── README_Patent_InterBOxSpider_Web_NET.pdf  (Umfassende Patentbeschreibung des Gesamtsystems)
+├── smart_contracts/                                (Die Kernlogik unserer Blockchain-Operationen)
+│   ├── ctc_main_contract/
+│   │   ├── index.sol                               (Haupt-Smart-Contract des CTC-Coins)
+│   │   ├── deploy.js                               (Deployment-Skript)
+│   │   ├── test.js                                 (Testskripte für CTC-Main-Contract)
+│   │   ├── config.json                             (Konfigurationsdatei)
+│   │   ├── utils.py                                (Hilfsfunktionen, Python)
+│   │   ├── security_audit.md                       (Sicherheitsaudit-Dokumentation)
+│   │   ├── interface.abi                           (Contract Application Binary Interface)
+│   │   ├── documentation.md                        (Spezifische Dokumentation des Contracts)
+│   │   ├── changelog.md                            (Änderungsprotokoll)
+│   │   └── migration_scripts/                      (Skripte für Contract-Migrationen/Upgrades)
+│   │       ├── 01_initial_deployment.js
+│   │       ├── 02_update_logic.js
+│   │       ├── 03_add_feature_x.js
+│   │       ├── 04_fix_bug_y.js
+│   │       ├── 05_enhance_security.js
+│   │       ├── 06_optimize_gas.js
+│   │       ├── 07_integrate_protocol_z.js
+│   │       ├── 08_refactor_code.js
+│   │       ├── 09_add_analytics.js
+│   │       └── 10_final_audit_deploy.js
+│   ├── two_euro_method_contract/
+│   │   ├── index.sol                               (Smart-Contract für die "2 Euro Taktik"-Coins)
+│   │   ├── deploy.js
+│   │   ├── test.js
+│   │   ├── config.json
+│   │   ├── utils.py
+│   │   ├── security_audit.md
+│   │   ├── interface.abi
+│   │   ├── documentation.md
+│   │   ├── changelog.md
+│   │   └── migration_scripts/
+│   │       ├── 01_initial_deployment.js
+│   │       ├── 02_update_logic.js
+│   │       ├── 03_add_feature_x.js
+│   │       ├── 04_fix_bug_y.js
+│   │       ├── 05_enhance_security.js
+│   │       ├── 06_optimize_gas.js
+│   │       ├── 07_integrate_protocol_z.js
+│   │       ├── 08_refactor_code.js
+│   │       ├── 09_add_analytics.js
+│   │       └── 10_final_audit_deploy.js
+│   └── majorana_tokenization_layer/
+│       ├── index.sol                               (Smart-Contract für die Majorana-Tokenisierung)
+│       ├── deploy.js
+│       ├── test.js
+│       ├── config.json
+│       ├── utils.py
+│       ├── security_audit.md
+│       ├── interface.abi
+│       ├── documentation.md
+│       ├── changelog.md
+│       └── migration_scripts/
+│           ├── 01_initial_deployment.js
+│           ├── 02_update_logic.js
+│           ├── 03_add_feature_x.js
+│           ├── 04_fix_bug_y.js
+│           ├── 05_enhance_security.js
+│           ├── 06_optimize_gas.js
+│           ├── 07_integrate_protocol_z.js
+│           ├── 08_refactor_code.js
+│           ├── 09_add_analytics.js
+│           └── 10_final_audit_deploy.js
+├── yggdrasil_core/                                 (Unsere allumfassende SUB-lineare Codesprache)
+│   ├── language_specifications/
+│   │   ├── yggdrasil_syntax.md
+│   │   ├── yggdrasil_semantics.md
+│   │   ├── yggdrasil_type_system.md
+│   │   ├── yggdrasil_axioms_core.md
+│   │   ├── yggdrasil_compiler_api.md
+│   │   ├── yggdrasil_runtime_spec.md
+│   │   ├── yggdrasil_security_model.md
+│   │   ├── yggdrasil_interop.md
+│   │   ├── yggdrasil_best_practices.md
+│   │   └── yggdrasil_error_codes.md
+│   ├── compiler/
+│   │   ├── lexer.ygg
+│   │   ├── parser.ygg
+│   │   ├── ast_generator.ygg
+│   │   ├── code_optimizer.ygg
+│   │   ├── target_generator.ygg
+│   │   ├── error_handler.ygg
+│   │   ├── symbol_table.ygg
+│   │   ├── semantic_analyzer.ygg
+│   │   ├── intermediate_code.ygg
+│   │   └── code_generator.ygg
+│   └── runtime/
+│       ├── vm_core.ygg
+│       ├── memory_manager.ygg
+│       ├── threading.ygg
+│       ├── io_handler.ygg
+│       ├── crypto_primitives.ygg
+│       ├── network_stack.ygg
+│       ├── quantum_interface.ygg
+│       ├── error_recovery.ygg
+│       ├── resource_scheduler.ygg
+│       └── logging_system.ygg
+├── protocols/
+│   ├── ava_protocol/
+│   │   ├── protocol_spec.md
+│   │   └── impl.py
+│   ├── btba_protocol/
+│   │   ├── protocol_spec.md
+│   │   └── impl.cpp
+│   ├── phs_protocol/
+│   │   ├── protocol_spec.md
+│   │   └── impl.go
+│   └── mjolnir_protocol/
+│       ├── protocol_spec.md
+│       └── impl.rs
+├── axioms/
+│   ├── pzqqet_axioms/
+│   │   ├── pzqqet_core_definitions.md
+│   │   ├── pzqqet_transformation_rules.md
+│   │   └── pzqqet_validation_logic.md
+│   └── box_axioms/
+│       ├── box_axiom_definitions.md
+│       └── box_axiom_validation.md
+├── security/
+│   ├── audit_reports/
+│   └── threat_models/
+├── utilities/
+│   ├── data_helpers/
+│   └── encryption_tools/
+├── tests/
+│   ├── unit_tests/
+│   ├── integration_tests/
+│   └── performance_tests/
+└── contributions/
+    ├── guidelines.md
+    └── templates/
+```
+
+-----
+
